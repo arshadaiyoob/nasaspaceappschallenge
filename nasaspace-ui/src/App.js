@@ -1,11 +1,12 @@
 import React from 'react';
 import Map from './Components/Map'
-import Worldview from './Components/Worldview'
+import IFrame from './Components/IFrame'
 import './App.css';
+import Iframe from './Components/IFrame';
 
 function App() {
   return (
-    <Map />
+    <Iframe />
   );
 }
 

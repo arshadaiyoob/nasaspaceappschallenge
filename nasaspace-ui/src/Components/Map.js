@@ -1,9 +1,10 @@
 import React from 'react';
 import Globe from 'worldwind-react-globe'
+import OlLayerTile from "ol/layer/Tile";
+import OlSourceOSM from "ol/source/OSM";
 
 const layers = [
     'coordinates',
-    "bing-aerial-labels",
     'view-controls',
     'stars',
     'atmosphere-day-night'
